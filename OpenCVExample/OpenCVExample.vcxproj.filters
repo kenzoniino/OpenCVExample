@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>65078809-8bab-470b-a258-e95b079197cf</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>a7f672ea-8f47-43dc-b293-131dc1bc2b7b</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\grpPC1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OpenCVExample_TemporaryKey.pfx" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_core300.dll" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_imgcodecs300.dll" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_imgproc300.dll" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_ml300.dll" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Release\opencv_objdetect300.dll" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Debug\opencv_core300d.dll" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Debug\opencv_imgcodecs300d.dll" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Debug\opencv_imgproc300d.dll" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Debug\opencv_ml300d.dll" />
+    <None Include="..\..\..\..\..\..\..\path\to\opencv\vs2015\WS\10.0\x64\bin\Debug\opencv_objdetect300d.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\..\..\Downloads\haarcascade_fullbody.xml">
+      <Filter>Assets</Filter>
+    </Xml>
+    <Xml Include="..\..\..\..\..\Downloads\haarcascade_frontalface_alt.xml">
+      <Filter>Assets</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
